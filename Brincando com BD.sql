@@ -18,7 +18,7 @@ INSERT INTO Alunos (Nome, Idade, Email)
 	VALUES ('Murilo', 22, 'myster@gmail.com');
 
 INSERT INTO Alunos (Nome, Idade, Email)
-	VALUES ('Alexandre', 40, 'alexandre@gmail.com');
+	VALUES ('Alexandre', 40, 'DLAPlan@gmail.com');
 
 INSERT INTO Alunos (Nome, Idade, Email)
 	VALUES ('Mackley', 22, 'LUANGAMEPLAYS@gmail.com');
