@@ -15,13 +15,21 @@ INSERT INTO Alunos (Nome, Idade, Email)
 	VALUES ('Vinicius', 19, 'vinicius06.adm@gmail.com');
 
 INSERT INTO Alunos (Nome, Idade, Email)
-	VALUES ('Murilo', 22, 'myster@gmail.com');
+	VALUES
+	('Murilo', 22, 'myster@gmail.com'),
+	('Alexandre', 40, 'DLAPlan@gmail.com'),
+	('Mackley', 22, 'LUANGAMEPLAYS@gmail.com'),
+	('Enzo', 25, '1155doet@drymail.com');
 
-INSERT INTO Alunos (Nome, Idade, Email)
-	VALUES ('Alexandre', 40, 'DLAPlan@gmail.com');
+-- Tomar cuidado ao realizar UPDATE
+--UPDATE Alunos
+	--SET Idade = 19;
 
-INSERT INTO Alunos (Nome, Idade, Email)
-	VALUES ('Mackley', 22, 'LUANGAMEPLAYS@gmail.com');
+UPDATE Alunos
+	SET Idade = 27
+	WHERE Nome = 'enzo'
+	;
 
-INSERT INTO Alunos (Nome, Idade, Email)
-	VALUES ('Enzo', 25, '1155doet@drymail.com');
+	INSERT INTO Alunos (Nome, Idade, Email)
+	VALUES
+	('Enzo', 22, '1155doet@drymail.com');
